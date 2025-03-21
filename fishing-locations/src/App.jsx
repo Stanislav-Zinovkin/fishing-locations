@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
-import MapComponents from "./components/MapComponents";
-import FishingSpots from "./components/FishingSpots";
-import LocationTracker from "./components/LocationTracker";
+import Header from "./js/Header";
+import MapComponents from "./js/MapComponents";
+import FishingSpots from "./js/FishingSpots";
+import LocationTracker from "./js/LocationTracker";
 
 function App() {
   const [location, setLocation] = useState(null);

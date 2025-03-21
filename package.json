@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,14 @@
   "homepage": "https://github.com/Stanislav-Zinovkin/fishing-locations#readme",
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",
+    "@vitejs/plugin-react": "^4.3.4",
     "axios": "^1.8.4",
     "izitoast": "^1.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "simplelightbox": "^2.14.3"
+  },
+  "devDependencies": {
+    "vite": "^6.2.2"
   }
 }
