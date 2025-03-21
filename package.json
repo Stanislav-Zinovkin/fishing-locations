@@ -1,0 +1,27 @@
+{
+  "name": "fishing-locations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanislav-Zinovkin/fishing-locations.git"
+  },
+  "keywords": [],
+  "author": "Stanislav Zinovkin <stas14zinovkin@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Stanislav-Zinovkin/fishing-locations/issues"
+  },
+  "homepage": "https://github.com/Stanislav-Zinovkin/fishing-locations#readme",
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
+    "axios": "^1.8.4",
+    "izitoast": "^1.4.0",
+    "simplelightbox": "^2.14.3"
+  }
+}
