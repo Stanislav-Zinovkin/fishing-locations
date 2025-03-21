@@ -5,9 +5,8 @@ function FishingSpots({ location }) {
 
   useEffect(() => {
     const fetchSpots = async () => {
-      const response = await fetch(
-        `https://api.example.com/fishing-spots?lat=${location.lat}&lng=${location.lng}`
-      );
+      const response = await fetch();
+      //find a normal api for fishing spots or remind this
       const data = await response.json();
       setSpots(data.spots);
     };
