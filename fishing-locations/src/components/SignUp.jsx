@@ -43,7 +43,7 @@ function SignUp({ isOpen, onClose }) {
             required
           />
         </div>
-        <button type="submit">LogIn</button>
+        <button type="submit">Sign Up</button>
         {error && <p style={{ color: "blue" }}>{error}</p>}
       </form>
     </Modal>

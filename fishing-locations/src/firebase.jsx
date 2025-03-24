@@ -1,6 +1,7 @@
 // firebase.js
-import firebase from "firebase/app";
-import "firebase/auth"; // Для аутентифікації
+
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBWicEbfZURMxFyMAeofZJdFoCb4LoOVw0",
@@ -11,7 +12,8 @@ const firebaseConfig = {
   appId: "1:1507964048:web:2c88d7f5a2c7bf877b5415",
 };
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
-const auth = firebaseApp.auth();
+const firebaseApp = initializeApp(firebaseConfig);
+
+const auth = getAuth(firebaseApp);
 
 export { auth };
